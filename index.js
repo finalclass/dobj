@@ -27,8 +27,11 @@ DObj.prototype = {
         });
     },
     del: function (path) {
+        var that = this;
+
         return deepAccess(this.target, path, function (obj, property) {
             delete obj[property];
+            return that;
         });
     }
 };
