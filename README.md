@@ -5,7 +5,7 @@ Object deep dot access. set, get, del methods available
 
 ---------------------------------------
 
-## Set
+## Get
 
 ```js
 var obj = {
@@ -21,7 +21,7 @@ dobj(obj).get('a.b.c');
 
 ```
 
-## Get
+## Set
 
 ```js
 var obj = {
