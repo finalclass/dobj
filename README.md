@@ -5,6 +5,10 @@ Object deep dot access. set, get, del methods available
 
 ---------------------------------------
 
+## License
+
+**MIT License** see LICENSE file.
+
 ## Installation
 
 ```bash
@@ -62,5 +66,3 @@ dobj(obj)
     .get('a.b.c');
 // => undefined
 ```
-
-**MIT License**
