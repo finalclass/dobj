@@ -1,26 +1,29 @@
 {
-  "name": "dobj",
-  "version": "0.0.0",
-  "description": "Object deep dot access. set, get, del methods available",
-  "main": "index.js",
-  "scripts": {
-    "test": "jasmine-node ./spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:finalclass/dobj.git"
-  },
-  "keywords": [
-    "dot",
-    "access",
-    "notation",
-    "object",
-    "deep",
-    "access"
-  ],
-  "author": "Szymon Wygnański",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/finalclass/dobj/issues"
-  }
+    "name": "dobj",
+    "version": "0.0.0",
+    "description": "Object deep dot access. set, get, del methods available",
+    "main": "index.js",
+    "scripts": {
+        "test": "jasmine-node ./spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:finalclass/dobj.git"
+    },
+    "devDependencies": {
+        "jasmine-node": "1.11.x"
+    },
+    "keywords": [
+        "dot",
+        "access",
+        "notation",
+        "object",
+        "deep",
+        "access"
+    ],
+    "author": "Szymon Wygnański <s@finalclass.net>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/finalclass/dobj/issues"
+    }
 }
