@@ -5,7 +5,15 @@ Object deep dot access. set, get, del methods available
 
 ---------------------------------------
 
-## Get
+## Installation
+
+```bash
+npm install dobj
+```
+
+## API documentation
+
+### Get
 
 ```js
 var obj = {
@@ -21,7 +29,7 @@ dobj(obj).get('a.b.c');
 
 ```
 
-## Set
+### Set
 
 ```js
 var obj = {
@@ -38,7 +46,7 @@ dobj(obj)
 // => 'ok'
 ```
 
-## Del
+### Del
 
 ```js
 var obj = {
