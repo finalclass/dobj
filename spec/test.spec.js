@@ -28,4 +28,18 @@ describe('dobj', function () {
         expect(dobj(obj).get('a.b.c')).not.toBeDefined();
     });
 
+    it('can shallow get', function () {
+        expect(dobj(obj).get('a')).toBe(obj.a);
+    });
+
+    it('can shallow set', function () {
+        dobj(obj).set('a', 'ok');
+        expect(dobj(obj).get('a')).toBe('ok');
+    });
+
+    it('can shallowe del', function () {
+        dobj(obj).del('a');
+        expect(dobj(obj).get('a')).not.toBeDefined();
+    });
+
 });
