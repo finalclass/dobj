@@ -42,4 +42,13 @@ describe('dobj', function () {
         expect(dobj(obj).get('a')).not.toBeDefined();
     });
 
+    it('has chaining api', function () {
+        expect(function () {
+            dobj(obj)
+                .set('a.b.c', 'ok')
+                .del('a.b')
+                .get('a');
+        }).not.toThrow();
+    });
+
 });
