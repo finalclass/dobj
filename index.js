@@ -36,7 +36,13 @@ DObj.prototype = {
     }
 };
 
-
-module.exports = function (target) {
+var constr = function (target) {
     return new DObj(target);
 };
+
+if (typeof window === 'undefined') {
+    module.exports = constr;
+    constr.expressRoute = require('./express-route.js');
+} else {
+    window.dobj = constr
+}
