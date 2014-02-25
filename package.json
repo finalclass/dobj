@@ -1,6 +1,6 @@
 {
   "name": "dobj",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Object deep dot access. set, get, del methods available",
   "main": "index.js",
   "scripts": {
