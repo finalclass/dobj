@@ -81,6 +81,6 @@ dobj(obj)
 
 ### `silentGet(path:string) : *` and `silentDel(path:string) : dobj`
 
-These methods are a "silent" version of get and del. If you call them on paths that does not exists
+These methods are a "silent" versions of get and del. If you call them on paths that does not exists
 no exception will be thrown. 
 If path is incorrect `silentGet` will return `undefined` and silentDel will remain silent and return dobj as normal `del`.
