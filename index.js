@@ -20,7 +20,7 @@ DObj.prototype = {
   },
   silentGet: function (path) {
     try {
-      this.get(path);
+      return this.get(path);
     } catch (err) {
       return undefined;
     }
