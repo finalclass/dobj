@@ -1,0 +1,26 @@
+{
+  "name": "dobj",
+  "main": "index.js",
+  "version": "1.2.0",
+  "homepage": "https://github.com/finalclass/dobj",
+  "authors": [
+    "Szymon WYgnański <s@finalclass.net>"
+  ],
+  "description": "Object deep dot access. set, get, del methods available",
+  "keywords": [
+    "dot",
+    "access",
+    "notation",
+    "object",
+    "deep",
+    "access"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
